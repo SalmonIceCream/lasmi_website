@@ -1,0 +1,141 @@
+:root {
+  --primary-color: #ffcf63;
+  --dark-green: #005142;
+  --orange: #cd9117;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fff;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.hero-section {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.about-section {
+  background-color: var(--dark-green);
+  color: #fff;
+  padding: 2rem 1rem;
+  border-radius: 12px;
+  margin-top: 1rem;
+}
+
+.product-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.track-section {
+  /* background-color: #eaf3ee; */
+  padding: 1rem;
+  text-align: center;
+}
+.navbar-brand img {
+  height: 70px;
+}
+
+.ls-bg-primary {
+  background-color: var(--primary-color);
+  color: #000;
+}
+
+.ls-bg-dark-green {
+  background-color: var(--dark-green);
+  color: #fff;
+}
+
+.ls-bg-light-grey {
+  background-color: #f4f4f4;
+  color: #000;
+}
+
+.btn-color-primary {
+  background-color: var(--primary-color);
+  color: #000;
+}
+.btn-color-dark-green {
+  background-color: var(--dark-green);
+  color: #fff;
+}
+
+.btn-color-dark-green:hover {
+  background-color: #004030;
+  color: #fff;
+}
+.btn-color-primary:hover {
+  background-color: #e6b800;
+  color: #fff;
+}
+
+.ls-bold-700 {
+  font-weight: 700;
+}
+
+.nav-link {
+  position: relative;
+  color: var(--dark-green);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--dark-green);
+}
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 4px;
+  color: var(--dark-green);
+  background-color: var(--dark-green); /* warna garis */
+  border-radius: 2px;
+}
+
+.ls-color-orange {
+  color: var(--orange);
+}
+
+.ls-color-dark-green {
+  color: var(--dark-green);
+}
+
+.ls-color-primary {
+  color: var(--primary-color);
+}
+
+.btn-color-orange {
+  background-color: var(--orange);
+  color: #fff;
+}
+.btn-color-orange:hover {
+  background-color: #b87c00;
+  color: #fff;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.nav-tabs .nav-link.active {
+  color: #004b3f;
+  font-weight: bold;
+  border-bottom: 4px solid #004b3f;
+}
+
+.tab-content .tab-pane {
+  background-color: #004b3f;
+  border-radius: 10px;
+  padding: 20px;
+  color: #fff;
+  margin-top: 10px;
+}
